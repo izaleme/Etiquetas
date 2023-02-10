@@ -1,4 +1,4 @@
-﻿namespace EtqCor
+﻿namespace ETQ
 {
     partial class Frm000100EtqTestesCor
     {

@@ -18,7 +18,7 @@ using System.Collections.Generic;
 
 
 
-namespace EtqCor
+namespace ETQ
 {
     public partial class Frm000100EtqTestesCor : Form
     {
