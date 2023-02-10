@@ -76,7 +76,7 @@
             this.containerPanel1.PainelCentro = this.pnlContent;
             this.containerPanel1.PerfilUsuarioVisivel = false;
             this.containerPanel1.RotacaoGradiente = 0F;
-            this.containerPanel1.Size = new System.Drawing.Size(709, 264);
+            this.containerPanel1.Size = new System.Drawing.Size(673, 264);
             this.containerPanel1.TabIndex = 0;
             this.containerPanel1.Titulo = "Impressão de Etiqueta";
             // 
@@ -107,7 +107,7 @@
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(705, 240);
+            this.pnlContent.Size = new System.Drawing.Size(669, 240);
             this.pnlContent.TabIndex = 1;
             // 
             // lblPigmento
@@ -285,7 +285,7 @@
             // 
             this.picEtiquetaMenor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picEtiquetaMenor.BackgroundImage")));
             this.picEtiquetaMenor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picEtiquetaMenor.Location = new System.Drawing.Point(462, 21);
+            this.picEtiquetaMenor.Location = new System.Drawing.Point(443, 21);
             this.picEtiquetaMenor.Name = "picEtiquetaMenor";
             this.picEtiquetaMenor.Size = new System.Drawing.Size(146, 159);
             this.picEtiquetaMenor.TabIndex = 10;
@@ -297,7 +297,7 @@
             this.lblLegendaImgMenor.AutoSize = true;
             this.lblLegendaImgMenor.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLegendaImgMenor.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblLegendaImgMenor.Location = new System.Drawing.Point(472, 184);
+            this.lblLegendaImgMenor.Location = new System.Drawing.Point(453, 184);
             this.lblLegendaImgMenor.Name = "lblLegendaImgMenor";
             this.lblLegendaImgMenor.Size = new System.Drawing.Size(127, 13);
             this.lblLegendaImgMenor.TabIndex = 11;
@@ -308,7 +308,7 @@
             // 
             this.picEtiquetaMaior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picEtiquetaMaior.BackgroundImage")));
             this.picEtiquetaMaior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picEtiquetaMaior.Location = new System.Drawing.Point(408, 25);
+            this.picEtiquetaMaior.Location = new System.Drawing.Point(389, 25);
             this.picEtiquetaMaior.Name = "picEtiquetaMaior";
             this.picEtiquetaMaior.Size = new System.Drawing.Size(257, 145);
             this.picEtiquetaMaior.TabIndex = 12;
@@ -320,7 +320,7 @@
             this.lblLegendaImgMaior.AutoSize = true;
             this.lblLegendaImgMaior.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLegendaImgMaior.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblLegendaImgMaior.Location = new System.Drawing.Point(475, 174);
+            this.lblLegendaImgMaior.Location = new System.Drawing.Point(456, 174);
             this.lblLegendaImgMaior.Name = "lblLegendaImgMaior";
             this.lblLegendaImgMaior.Size = new System.Drawing.Size(123, 13);
             this.lblLegendaImgMaior.TabIndex = 13;
@@ -331,7 +331,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 264);
+            this.ClientSize = new System.Drawing.Size(673, 264);
             this.Controls.Add(this.containerPanel1);
             this.Name = "Frm000100EtqTestesCor";
             this.Text = "Frm000100EtqTestesCor";
