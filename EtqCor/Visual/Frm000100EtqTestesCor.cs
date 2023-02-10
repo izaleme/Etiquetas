@@ -16,7 +16,9 @@ using System.Threading.Tasks;
 using System.Drawing.Printing;
 using System.Collections.Generic;
 
-namespace ETQ.Visual
+
+
+namespace EtqCor
 {
     public partial class Frm000100EtqTestesCor : Form
     {
