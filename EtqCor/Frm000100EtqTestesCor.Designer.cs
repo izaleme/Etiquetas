@@ -49,7 +49,10 @@
             this.lblQntde = new System.Windows.Forms.Label();
             this.cbxQntdeImpressao = new Plasutil.Components.CustomBox();
             this.chkUpper = new System.Windows.Forms.CheckBox();
+            this.picEtiquetaMenor = new System.Windows.Forms.PictureBox();
+            this.lblLegendaImgMenor = new System.Windows.Forms.Label();
             this.pnlContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEtiquetaMenor)).BeginInit();
             this.SuspendLayout();
             // 
             // containerPanel1
@@ -60,6 +63,7 @@
             this.containerPanel1.CorGradienteInicial = System.Drawing.Color.MediumSlateBlue;
             this.containerPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerPanel1.ExportarExcelVisivel = false;
+            this.containerPanel1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.containerPanel1.FonteTitulo = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.containerPanel1.ForeColorTitulo = System.Drawing.SystemColors.HighlightText;
             this.containerPanel1.Icone = ((System.Drawing.Image)(resources.GetObject("containerPanel1.Icone")));
@@ -68,13 +72,15 @@
             this.containerPanel1.PainelCentro = this.pnlContent;
             this.containerPanel1.PerfilUsuarioVisivel = false;
             this.containerPanel1.RotacaoGradiente = 0F;
-            this.containerPanel1.Size = new System.Drawing.Size(800, 450);
+            this.containerPanel1.Size = new System.Drawing.Size(716, 270);
             this.containerPanel1.TabIndex = 0;
             this.containerPanel1.Titulo = "Impressão de Etiqueta";
             // 
             // pnlContent
             // 
             this.pnlContent.AutoSize = true;
+            this.pnlContent.Controls.Add(this.lblLegendaImgMenor);
+            this.pnlContent.Controls.Add(this.picEtiquetaMenor);
             this.pnlContent.Controls.Add(this.chkUpper);
             this.pnlContent.Controls.Add(this.cbxQntdeImpressao);
             this.pnlContent.Controls.Add(this.cboTamanho);
@@ -95,7 +101,7 @@
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(798, 428);
+            this.pnlContent.Size = new System.Drawing.Size(714, 248);
             this.pnlContent.TabIndex = 1;
             // 
             // lblPigmento
@@ -115,7 +121,7 @@
             this.cbxPigmento.Formato = Plasutil.Components.Tipo.AlfaNumérico;
             this.cbxPigmento.Location = new System.Drawing.Point(112, 14);
             this.cbxPigmento.Name = "cbxPigmento";
-            this.cbxPigmento.Size = new System.Drawing.Size(253, 20);
+            this.cbxPigmento.Size = new System.Drawing.Size(253, 21);
             this.cbxPigmento.TabIndex = 1;
             // 
             // lblCodCor
@@ -135,7 +141,7 @@
             this.cbxCodCor.Formato = Plasutil.Components.Tipo.AlfaNumérico;
             this.cbxCodCor.Location = new System.Drawing.Point(112, 39);
             this.cbxCodCor.Name = "cbxCodCor";
-            this.cbxCodCor.Size = new System.Drawing.Size(253, 20);
+            this.cbxCodCor.Size = new System.Drawing.Size(253, 21);
             this.cbxCodCor.TabIndex = 2;
             // 
             // lblConcentracao
@@ -155,7 +161,7 @@
             this.cbxConcentracao.Formato = Plasutil.Components.Tipo.AlfaNumérico;
             this.cbxConcentracao.Location = new System.Drawing.Point(112, 64);
             this.cbxConcentracao.Name = "cbxConcentracao";
-            this.cbxConcentracao.Size = new System.Drawing.Size(253, 20);
+            this.cbxConcentracao.Size = new System.Drawing.Size(253, 21);
             this.cbxConcentracao.TabIndex = 3;
             // 
             // lblFornecedor
@@ -175,7 +181,7 @@
             this.cbxFornecedor.Formato = Plasutil.Components.Tipo.AlfaNumérico;
             this.cbxFornecedor.Location = new System.Drawing.Point(112, 89);
             this.cbxFornecedor.Name = "cbxFornecedor";
-            this.cbxFornecedor.Size = new System.Drawing.Size(253, 20);
+            this.cbxFornecedor.Size = new System.Drawing.Size(253, 21);
             this.cbxFornecedor.TabIndex = 4;
             // 
             // lblResina
@@ -195,7 +201,7 @@
             this.cbxResina.Formato = Plasutil.Components.Tipo.AlfaNumérico;
             this.cbxResina.Location = new System.Drawing.Point(112, 114);
             this.cbxResina.Name = "cbxResina";
-            this.cbxResina.Size = new System.Drawing.Size(253, 20);
+            this.cbxResina.Size = new System.Drawing.Size(253, 21);
             this.cbxResina.TabIndex = 5;
             // 
             // lblImpressora
@@ -255,7 +261,7 @@
             this.cbxQntdeImpressao.Formato = Plasutil.Components.Tipo.AlfaNumérico;
             this.cbxQntdeImpressao.Location = new System.Drawing.Point(330, 190);
             this.cbxQntdeImpressao.Name = "cbxQntdeImpressao";
-            this.cbxQntdeImpressao.Size = new System.Drawing.Size(35, 20);
+            this.cbxQntdeImpressao.Size = new System.Drawing.Size(35, 21);
             this.cbxQntdeImpressao.TabIndex = 8;
             // 
             // chkUpper
@@ -269,16 +275,40 @@
             this.chkUpper.Text = "Texto em letra maiúscula";
             this.chkUpper.UseVisualStyleBackColor = true;
             // 
+            // picEtiquetaMenor
+            // 
+            this.picEtiquetaMenor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picEtiquetaMenor.BackgroundImage")));
+            this.picEtiquetaMenor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picEtiquetaMenor.Location = new System.Drawing.Point(422, 25);
+            this.picEtiquetaMenor.Name = "picEtiquetaMenor";
+            this.picEtiquetaMenor.Size = new System.Drawing.Size(134, 155);
+            this.picEtiquetaMenor.TabIndex = 10;
+            this.picEtiquetaMenor.TabStop = false;
+            this.picEtiquetaMenor.Visible = false;
+            // 
+            // lblLegendaImgMenor
+            // 
+            this.lblLegendaImgMenor.AutoSize = true;
+            this.lblLegendaImgMenor.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLegendaImgMenor.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblLegendaImgMenor.Location = new System.Drawing.Point(426, 184);
+            this.lblLegendaImgMenor.Name = "lblLegendaImgMenor";
+            this.lblLegendaImgMenor.Size = new System.Drawing.Size(127, 13);
+            this.lblLegendaImgMenor.TabIndex = 11;
+            this.lblLegendaImgMenor.Text = "Etiqueta menor (33 x 38)";
+            this.lblLegendaImgMenor.Visible = false;
+            // 
             // Frm000100EtqTestesCor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(716, 270);
             this.Controls.Add(this.containerPanel1);
             this.Name = "Frm000100EtqTestesCor";
             this.Text = "Frm000100EtqTestesCor";
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEtiquetaMenor)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -304,5 +334,7 @@
         private Plasutil.Components.CustomBox cbxQntdeImpressao;
         private System.Windows.Forms.Label lblQntde;
         private System.Windows.Forms.CheckBox chkUpper;
+        private System.Windows.Forms.Label lblLegendaImgMenor;
+        private System.Windows.Forms.PictureBox picEtiquetaMenor;
     }
 }
