@@ -2,7 +2,7 @@
 
 namespace ETQResources
 {
-    public static class Printer
+    public class Printer
     {
         public struct DOCINFO
         {

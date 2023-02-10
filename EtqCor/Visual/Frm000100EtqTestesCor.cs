@@ -15,10 +15,11 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Drawing.Printing;
 using System.Collections.Generic;
+using ETQResources;
+using static ETQResources.EnumeradoresETQ;
 
 
-
-namespace EtqCor
+namespace ETQ.Visual
 {
     public partial class Frm000100EtqTestesCor : Form
     {
@@ -26,7 +27,7 @@ namespace EtqCor
         #region  Atributos
 
         private ToolStripButton btnImprimir;
-        string cfg_file_path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\TIPlasutil\\impressao_etq_cfg.dat";
+//        string cfg_file_path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\TIPlasutil\\impressao_etq_cfg.dat";
         Etiqueta_Template etiqueta = new Etiqueta_Template(E_TIPO_IMPRESSORA.Zebra);
 
         private int intQuantidade = 0;

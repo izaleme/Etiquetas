@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ETQResources
 {
-    class EnumeradoresETQ
+    public class EnumeradoresETQ
     {
         public enum E_ALINHAMENTO
         {

@@ -82,5 +82,11 @@
     <Content Include="Resources\EtiquetaPecasCorMaior.png" />
     <Content Include="Resources\EtiquetaPecasCorMenor.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ETQResources\ETQResources.csproj">
+      <Project>{45f426b0-6c45-4e88-a07a-7bf0c6dd5f61}</Project>
+      <Name>ETQResources</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

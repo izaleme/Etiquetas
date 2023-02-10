@@ -5,7 +5,7 @@ using static ETQResources.EnumeradoresETQ;
 
 namespace ETQResources
 {
-    class Etiqueta_Template
+    public class Etiqueta_Template
     {
         #region  Atributos
 
